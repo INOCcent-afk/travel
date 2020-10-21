@@ -1,0 +1,42 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/images/img-8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-size: 50px;
+  text-shadow: 1px 1px #ffffff;
+}
+.hero-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-btns button {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 20px 50px;
+}
+.hero-frst-btn {
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-scnd-btn {
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.sector-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.sector-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.card-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 200px;
+}
+.card-p p:nth-child(1) {
+  font-size: 40px;
+  padding-top: 20px;
+}
+.card-p p:nth-child(2) {
+  color: #555555;
+  padding: 10px 0;
+}
+.card-p p a {
+  color: #141414;
+}
+.card-img img {
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.sector-footer {
+  background: #a80c0c;
+  padding: 20px 50px;
+
+  cursor: pointer;
+}
